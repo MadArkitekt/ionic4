@@ -1,0 +1,55 @@
+
+# Created by https://www.gitignore.io/api/git,ionic3
+# Edit at https://www.gitignore.io/?templates=git,ionic3
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+photo-gallery/.git
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### Ionic3 ###
+# Log an tmp data
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+
+# NPM (Node Package Manager) files
+*/npm-debug.log*
+*/node_modules/
+*/tmp/
+*/temp/
+
+# Preprocessors cache files
+*/.sourcemaps/
+*/.sass-cache/
+*/.tmp/
+*/hooks/
+
+# Ionic 3 plugins files
+*/platforms/
+*/plugins/
+*/plugins/android.json
+*/plugins/ios.json
+*/www/
+
+# Trash data
+*/$RECYCLE.BIN/
+*/.DS_Store
+*/Thumbs.db
+*/UserInterfaceState.xcuserstate
+
+# End of https://www.gitignore.io/api/git,ionic3
